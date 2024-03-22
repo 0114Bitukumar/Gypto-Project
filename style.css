@@ -1,0 +1,495 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+}
+#gypto{
+    width: 100%;
+    height: 100vh;
+    background-color: #010512;
+}
+#page1{
+    width: 100%;
+    height: 145vh;
+    background-color: #010512;
+}
+#page1 h1{
+    font-size: 48px;
+    font-weight: normal;
+    font-family: "Bebas Neue";
+    color: white;
+    transform: translateY(78px) translateX(90px);
+}
+#card1{
+    width: 35%;
+    height: 6vh;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(270px) translatey(4vh);
+}
+#card1 h2{
+    color: white;
+    font-weight: normal;
+    font-family: sans-serif;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+}
+#button{
+    width: 13%;
+    height: 8vh;
+    /* background-color: red; */
+    border: 1px solid white;
+    transform: translateX(618%) translateY(-4vh);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    z-index: 9999;
+    position: relative;
+}
+#button:hover {
+    background-color: white;
+    color: black;
+    font-weight: 600;
+}
+#circle img{
+    width: 12%;
+    height: 40%;
+    margin-left: 5vw;
+    margin-top: 3%;
+    animation-name: anim1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes anim1{
+    0%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
+
+#hero_card img{
+    width: 80%;
+    height: 0%;
+    transform: translateX(58%)  translateY(-35vh);
+}
+#crypto{
+    width: 45.8%;
+    height: 40%;
+    /* background-color: brown; */
+    transform: translateY(-120vh) translateX(48%);
+}
+#crypto h1{
+    font-size: 276px;
+    font-family: "Bebas Neue";
+    transform: translateX(-2%) translateY(-10vh);
+}
+#crypto h2{
+    color: white;
+    font-size: 180px;
+    font-family: "Bebas Neue";
+    transform: translateX(-2%) translateY(-23vh);
+}
+#convert{
+    width: 30%;
+    height: 15vh;
+    /* background-color: red; */
+    transform: translateY(-140vh) translateX(160%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#convert h1{
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(0%);
+}
+#page2{
+    width: 100%;
+    height: 45vh;
+    background: linear-gradient(#517581,#7b555a);
+    transform: translateY(45vh);
+}
+#get{
+    width: 40%;
+    height: 30vh;
+    /* background: black; */
+    transform: translateX(16%) translateY(8vh);
+}
+#get h2{
+    color: white;
+    font-weight: normal;
+    font-size: 16px;
+    font-family: sans-serif;
+    transform: translateY(5vh);
+}
+#get h1{
+    color: rgba(253, 108, 108, 0.968);
+    font-size: 32px;
+    font-weight: 100;
+    font-family: sans-serif;
+    transform: translateY(13vh);
+}
+#one{
+    width: 10%;
+    height: 15vh;
+    /* background-color: red; */
+    border-bottom: 1px solid white;
+    transform: translateX(600%) translateY(-18vh);
+}
+#one h1{
+    color: white;
+    font-size: 90px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+#two{
+    width: 10%;
+    height: 15vh;
+    /* background-color: red; */
+    border-bottom: 1px solid white;
+    transform: translateX(800%) translateY(-33vh);
+}
+#two h1{
+    color: white;
+    font-size: 90px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+#page2 #arr1{
+    font-size: 20px;
+    position: absolute;
+    left: 68%;
+    top: 65%;
+    color: white;
+}
+#page2 #arr2{
+    font-size: 20px;
+    position: absolute;
+    left: 88%;
+    top: 65%;
+    color: white;
+}
+#page3{
+    width: 100%;
+    height: 140vh;
+    background-color: #010512;
+    transform: translateY(45vh);
+}
+
+#graph{
+    width: 12vw;
+    height: 25vh;
+    overflow: hidden;  
+    transform: translateX(50%) translateY(25vh); 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+#graph img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: ease .3s;
+}
+#graph img:hover{
+    scale: 1.15;
+}
+
+#page3 h2{
+    font-size: 15px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: normal;
+    transform: translateY(30vh) translateX(6.5%);
+    line-height: 25px;
+}
+
+#about{
+    width: 65%;
+    height: 52%;
+    overflow: hidden;
+    transform: translateX(44%) translateY(-14.5vh);
+}
+
+#about img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: ease .4s;
+}
+
+#about img:hover{
+    scale: 1.25;
+}
+
+#page3 h3{
+    color: white;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    transform: translateX(28.7%) translateY(-18.5vh);
+}
+#page3 h1{
+    color: rgba(181, 115, 115, 0.537);
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 45px;
+    transform: translateX(52%) translateY(-21vh);
+}
+#page4{
+    width: 100%;
+    height: 220vh;
+    background-color: #010512;
+    transform: translateY(45vh);
+}
+#img{
+    width: 100%;
+    height: 48%;
+    background-image: url(/bg\ \(1\).webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+}
+#page4 h2{
+    color: rgb(169, 161, 161);
+    font-family: sans-serif;
+    font-size: 16px;
+    transform: translateY(-8vh) translateX(2%);
+}
+#page4 h1{
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+    transform: translateY(-4vh) translateX(30%);
+    line-height: 45px;
+}
+#page4 h3{
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    transform: translateX(85%) translateY(-15vh);
+}
+#page4 i{
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+    position: absolute;
+    right: 5%;
+    top: 49.4%;
+}
+#line{
+    width: 93%;
+    height: 0.1vh;
+    background-color: white;
+    transform: translateY(25vh) translateX(7.8%);
+}
+#gpt{
+    width: 20%;
+    height: 25%;
+    /* background-color: red; */
+    transform: translateY(35vh) translateX(33%);
+}
+#gpt h1{
+    font-size: 30px;
+    color: white;
+    font-weight: normal;
+    font-family: sans-serif;
+    transform: translateX(0%);
+}
+#gpt h2{
+    font-size: 18px;
+    color: white;
+    font-weight: normal;
+    font-family: sans-serif;
+    transform: translateY(6vh);
+}
+#gpt h3{
+    font-size: 14px;
+    color: white;
+    font-weight: normal;
+    font-family: sans-serif;
+    transform: translateY(18vh) translateX(17%);
+}
+#gpt h4{
+    font-size: 14px;
+    color: white;
+    font-weight: normal;
+    font-family: sans-serif;
+    transform: translateY(18vh) translateX(23%);
+}
+#gpt i{
+    display: flex;
+    font-size: 15px;
+    color: white;
+    font-weight: normal;
+    font-family: sans-serif;
+    position: relative;
+    top: 15.5vh;
+    left: 16.4%;
+}
+#gpt img{
+    width: 13%;
+    transform: translateY(11vh);
+}
+#site{
+    width: 20%;
+    height: 10.5%;
+    /* background-color: red;  */
+    transform: translateX(175%) translateY(-19.5vh);
+}
+#site h1{
+    font-size: 22px;
+    font-family: sans-serif;
+    color: white;
+    transform: translateY(0vh);
+}
+#site h1:nth-child(2){
+    font-size: 16px;
+    font-family: sans-serif;
+    color: white;
+    transform: translateY(3vh);
+}
+#site h1:nth-child(3){
+    font-size: 16px;
+    font-family: sans-serif;
+    color: white;
+    transform: translateY(-4.1vh) translateX(60%);
+}
+#site h1:nth-child(5){
+    font-size: 16px;
+    font-family: sans-serif;
+    color: white;
+    transform: translateY(-10.5vh) translateX(60%);
+}
+#site h1:nth-child(4){
+    font-size: 16px;
+    font-family: sans-serif;
+    color: white;
+    transform: translateY(-3.6vh);
+}
+#icon{
+    width: 23%;
+    height: 6vh;
+    /* background-color: rgb(24, 6, 6); */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    transform: translateX(144%) translateY(-10vh);
+}
+#icon i{
+    color: white;
+    font-size: 20px;
+    border: 1px solid rgb(100, 70, 70);
+    padding: 5px 5px;
+    transform: translateX(-770%) translateY(-2.5vh);
+}
+#icon i:nth-child(1){
+    color: white;
+    font-size: 20px;
+    border: 1px solid rgb(100, 70, 70);
+    padding: 5px 5px;
+    transform: translateX(-570%)translateY(-2.5vh);
+}
+#icon i:nth-child(2){
+    color: white;
+    font-size: 20px;
+    border: 1px solid rgb(100, 70, 70);
+    padding: 5px 5px;
+    transform: translateX(-370%) translateY(-2.5vh);
+}
+#icon i:nth-child(3){
+    color: white;
+    font-size: 20px;
+    border: 1px solid rgb(100, 70, 70);
+    padding: 5px 5px;
+    transform: translateX(-170%) translateY(-2.5vh);
+}
+#icon i:nth-child(4){
+    color: white;
+    font-size: 20px;
+    border: 1px solid rgb(100, 70, 70);
+    padding: 5px 5px;
+    transform: translateX(30%) translateY(-2.5vh);
+}
+#icon i:hover{
+    border: 1px solid white;
+}
+#contact{
+    width: 20%;
+    height: 11%;
+    /* background-color: red; */
+    transform: translateX(320%) translateY(-49.3vh);
+}
+#contact h1{
+    font-size: 23px;
+    font-family: sans-serif;
+    color: white;
+    transform: translateY(2%);
+}
+#contact h2{
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    transform: translateY(6vh);
+    line-height: 22px;
+}
+#contact h2:nth-child(3){
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    transform: translateY(2.5vh) translateX(85%);
+}
+#contact h2:nth-child(5){
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    transform: translateY(2.8vh) translateX(85%);
+}
+#page5{
+    width: 100%;
+    height: 7vh;
+    background-color: grey;
+    transform: translateY(42vh);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    color: white;
+    font-weight: normal;
+    font-size: 13px;
+}
+#page5 a{
+    color: white;
+}
+#page5 i{
+    color: yellow;
+}
